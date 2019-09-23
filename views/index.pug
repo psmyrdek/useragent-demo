@@ -1,0 +1,21 @@
+extends _layout
+
+block customHead
+  link(rel="stylesheet", href="/statics/styles.css")
+
+block customBody
+
+  header
+    p Przeprogramowani
+    input(type="text", placeholder="Search articles")
+    nav
+      ul
+        li
+          a(href="#") Home
+        li
+          a(href="#") Profile
+        li
+          a(href="#") Settings
+
+  script(src="/statics/feature-1.js")
+  script(src="/statics/feature-2.js")
